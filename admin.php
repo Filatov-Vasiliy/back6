@@ -69,7 +69,7 @@ if (isset($_GET['del_id'])) {
   $data3->execute();
   $data1 = $db->query("DELETE FROM application2 WHERE id='$del'");
   $data1->execute();
-  header('Location: admin2.php');
+  header('Location: admin.php');
 }
 
 if (!empty($_POST['edit_it'])){
